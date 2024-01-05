@@ -30,6 +30,8 @@ url = "https://github.com/thevahidal/jake"
 [[sections]]
 title = "Links"
 description = "Look for me on these websites"
+direction = "row"
+item_style = "filled"
 [[sections.items]]
 title = "GithHub"
 url = "https://github.com/thevahidal"

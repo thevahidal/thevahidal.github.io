@@ -33,7 +33,7 @@ description = "Look for me on these websites"
 direction = "row"
 item_style = "filled"
 [[sections.items]]
-title = "GithHub"
+title = "GitHub"
 url = "https://github.com/thevahidal"
 [[sections.items]]
 title = "Linkedin"

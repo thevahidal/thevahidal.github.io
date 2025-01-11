@@ -10,11 +10,29 @@
   margin-bottom: var(--block-spacing-vertical);
 }
 
+.items {
+  display: flex;
+  column-gap: var(--spacing);
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 [role="button"] > hgroup {
   margin-bottom: 0;
 }
 
-[role="button"] {
+[role="button"], iframe {
   margin-bottom: var(--spacing);
   width: 100%;
+}
+
+.icon {
+  width: 24px;
+}
+
+.item a {
+  display: flex;
+  gap: var(--spacing);
+  justify-content: center;
 }
